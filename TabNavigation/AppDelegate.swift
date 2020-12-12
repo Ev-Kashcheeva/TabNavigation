@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TabNavigation
 //
-//  Created by Василий on 10.12.2020.
+//  Created by Евгения on 10.12.2020.
 //
 
 import UIKit

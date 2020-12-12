@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBAC31ED2584D7CE00524D3D /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC31EC2584D7CE00524D3D /* CitiesView.swift */; };
+		BBAC31F02584D7F600524D3D /* StreetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC31EF2584D7F600524D3D /* StreetsView.swift */; };
+		BBAC31F32584F18E00524D3D /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAC31F22584F18E00524D3D /* StartView.swift */; };
 		BBD07A1525821B6600B7A9F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD07A1425821B6600B7A9F2 /* AppDelegate.swift */; };
 		BBD07A1725821B6600B7A9F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD07A1625821B6600B7A9F2 /* SceneDelegate.swift */; };
-		BBD07A1925821B6600B7A9F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD07A1825821B6600B7A9F2 /* ContentView.swift */; };
+		BBD07A1925821B6600B7A9F2 /* TabViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD07A1825821B6600B7A9F2 /* TabViewContentView.swift */; };
 		BBD07A1B25821B6700B7A9F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD07A1A25821B6700B7A9F2 /* Assets.xcassets */; };
 		BBD07A1E25821B6700B7A9F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD07A1D25821B6700B7A9F2 /* Preview Assets.xcassets */; };
 		BBD07A2125821B6700B7A9F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBD07A1F25821B6700B7A9F2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BBAC31EC2584D7CE00524D3D /* CitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesView.swift; sourceTree = "<group>"; };
+		BBAC31EF2584D7F600524D3D /* StreetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetsView.swift; sourceTree = "<group>"; };
+		BBAC31F22584F18E00524D3D /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		BBD07A1125821B6600B7A9F2 /* TabNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD07A1425821B6600B7A9F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBD07A1625821B6600B7A9F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BBD07A1825821B6600B7A9F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBD07A1825821B6600B7A9F2 /* TabViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewContentView.swift; sourceTree = "<group>"; };
 		BBD07A1A25821B6700B7A9F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBD07A1D25821B6700B7A9F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BBD07A2025821B6700B7A9F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +64,10 @@
 			children = (
 				BBD07A1425821B6600B7A9F2 /* AppDelegate.swift */,
 				BBD07A1625821B6600B7A9F2 /* SceneDelegate.swift */,
-				BBD07A1825821B6600B7A9F2 /* ContentView.swift */,
+				BBD07A1825821B6600B7A9F2 /* TabViewContentView.swift */,
+				BBAC31F22584F18E00524D3D /* StartView.swift */,
+				BBAC31EC2584D7CE00524D3D /* CitiesView.swift */,
+				BBAC31EF2584D7F600524D3D /* StreetsView.swift */,
 				BBD07A1A25821B6700B7A9F2 /* Assets.xcassets */,
 				BBD07A1F25821B6700B7A9F2 /* LaunchScreen.storyboard */,
 				BBD07A2225821B6700B7A9F2 /* Info.plist */,
@@ -147,7 +156,10 @@
 			files = (
 				BBD07A1525821B6600B7A9F2 /* AppDelegate.swift in Sources */,
 				BBD07A1725821B6600B7A9F2 /* SceneDelegate.swift in Sources */,
-				BBD07A1925821B6600B7A9F2 /* ContentView.swift in Sources */,
+				BBD07A1925821B6600B7A9F2 /* TabViewContentView.swift in Sources */,
+				BBAC31F32584F18E00524D3D /* StartView.swift in Sources */,
+				BBAC31ED2584D7CE00524D3D /* CitiesView.swift in Sources */,
+				BBAC31F02584D7F600524D3D /* StreetsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
